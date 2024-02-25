@@ -22,6 +22,7 @@ def display_tasks():
             print(f"{index}. {task}")
     else:
         print("Your to-do list is empty.")
+        
 
 # Function to take user input for adding a task
 def get_task_from_user():
